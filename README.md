@@ -151,5 +151,5 @@ This project is licensed under the ISC License.
 - Inspired by modern blog platforms
 
 ## Images
-![landing Page ](./landing.pngimage.png)
-![login Page ](./login.png.png.pngimage.png)
+![landing Page ](./landing.png)
+![login Page ](./login.png)
