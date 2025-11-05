@@ -7,14 +7,18 @@ const cors = require('cors');
 const dotenv = require('dotenv');
 const path = require('path');
 
+// Import models to register them
+const User = require('./models/User');
+const Post = require('./models/Post');
+const Category = require('./models/Category');
+
 // Import routes
-const postRoutes = require('./routes/posts');
-const categoryRoutes = require('./routes/categories');
-const authRoutes = require('./routes/auth');
+const postRoutes = require('./routes/postRoutes');
+const categoryRoutes = require('./routes/categoryRoutes');
+const authRoutes = require('./routes/authRoutes');
 
 // Load environment variables
 dotenv.config();
-
 // Initialize Express app
 const app = express();
 const PORT = process.env.PORT || 5000;
